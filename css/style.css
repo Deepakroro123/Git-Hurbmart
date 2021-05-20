@@ -1,0 +1,267 @@
+@font-face{
+  src: url(../fonts/MYRIADPRO-BOLD.OTF);
+  font-family: Myrid pro;
+}
+body {
+  width: 100%;
+  font-family: Myrid pro;
+}
+header{
+  position: fixed;
+  width: 100% ;
+  height: 80px;
+  z-index: 99999;
+  background: #fff;
+}
+
+.navbar-nav li{
+  margin: 0 20px;
+  margin-top: 10px;
+}
+.hurb-nav a{
+  text-transform: uppercase;
+  font-size: 16px;
+  color: #000!important;
+}
+.nav-divider{
+  margin: 10px 15px;
+  border: none;
+  border-right: 2px solid #c78f90;
+  height: 20px;
+}
+.hurb-div{
+  display: flex;
+}
+.nav-search{
+  position: relative;
+  left: -40px;
+}
+/*-- ============= Banner Area =============== --*/
+.hrb-hero{
+  position: relative;
+  height: 45em;
+}
+.hurb-banner{
+  background-image: url(../img/banner-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  width: 100%;
+  height: 45em;
+  position: absolute;
+  top: 0%;
+  overflow: hidden;
+  z-index: 99999;
+}
+.banner-img {
+  margin-top: 60%;
+   z-index: 1;
+   position: relative;
+   left: 45%;
+ }
+.banner-img img {
+  animation: float 4s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translate(-50%, -46%);
+  }
+  50% {
+    transform: translate(-50%, -54%);
+  }
+  100% {
+    transform: translate(-50%, -46%);
+  }
+}
+
+.client-area{
+  background-color: #fff;
+  padding: 20px 0px 20px 0px;
+}
+.client-brand{
+  border-right: 1px solid #0003;
+  margin-top: 30px;
+}
+.client-brand h3{
+  font-size: 30px;
+  line-height: 24px;
+  color: #000000;
+  font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+.brand-logo img{
+  text-align: center;
+}
+.brand-logo img{
+  position: relative;
+}
+.c-hurbs{
+    top: -20px;
+    left: 25px;
+}
+.c-ayurvedic{
+  top: 15px;
+  left: -25px;
+}
+.c-herbal{
+  top: 15px;
+  left: 0px;
+}
+.c-care{
+  top: 25px;
+  left: 20px;
+}
+.c-pureveda{
+  top: -35px;
+  left: 25px;
+}
+.view-brand{
+  margin: 0 auto;
+}
+.view-brand h5{
+  text-align: center;
+  font-size: 12px;
+  color: #000000;
+  font-weight: 600;
+}
+.view-brand img{
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  margin-left: 10px;
+}
+.view-brand{
+  position: relative;
+  top: 25px;
+  left: 50px;
+}
+.unani-medi{
+  background-image: url(../img/bg-2.png);
+  background-repeat: no-repeat;
+  height: 60em;
+  background-size: cover;
+  width: 100%;
+  position: relative;
+  padding-top: 150px;
+  margin-top: -25px;
+}
+.bg-img-1 img{
+  position: absolute;
+  bottom: -68px;
+  left: -13%;
+}
+.bg-leaf img{
+  position: absolute;
+  right: 0;
+  top: 10px;
+}
+.unani-head h2{
+  font-size: 60px;
+  line-height: 120px;
+  color: #993333;
+  font-weight: 600;
+}
+.u-m{
+  font-weight: 400;
+  font-family: 'Montserrat', sans-serif;
+}
+.hrb-s-box{
+  font-family: 'Montserrat', sans-serif;
+  border-right: 1px solid #0003;
+  padding-right: 34px;
+  height: 80px;
+  margin: 0 35px 0px 0px;
+  width: 30%;
+  margin-bottom: 5%;
+}
+.hrb-s-box p{
+  margin-bottom: 0px;
+  font-size: 18px;
+  font-weight: 400;
+}
+.hrb-s-box h4{
+  font-weight: bold;
+  font-size: 25px;
+}
+.last-hrs-box{
+  border-right: none;
+}
+.hrbs-u-box1{
+  font-family: 'Montserrat', sans-serif;
+  background-color: #e4ebcc;
+  border-radius: 0px;
+  padding: 15px;
+  position: relative;
+}
+.a-right{
+  position: absolute;
+  right: 25px;
+   top: 25px;
+}
+.hrbs-u-box1 h4{
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+.hrbs-u-box1 p{
+  font-size: 14px;
+}
+.hurb-hashmin{
+  background-image: url(../img/sec-banner.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  width: 100%;
+  height: 46em;
+  padding-top: 100px;
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.hashmin-head h1{
+  font-size: 64px;
+  line-height: 64px;
+  color: #993333;
+  font-weight: 800;
+  margin-bottom: 3%;
+}
+.hashmin-head span{
+  font-weight: 100;
+}
+.hashmin-s-box{
+  font-family: 'Montserrat', sans-serif;
+  border-right: 1px solid #0003;
+  padding-right: 34px;
+  height: 50px;
+  margin: 0 35px 0px 0px;
+ margin-bottom: 10%;
+}
+.hashmin-s-box p{
+  margin-bottom: 0px;
+  font-size: 18px;
+  font-weight: 400;
+}
+.hashmin-s-box h4{
+  font-weight: bold;
+  font-size: 25px;
+}
+.hurbsh-p p{
+  font-size: 18px;
+  color: #333333;
+font-weight: 400;
+font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.hurbs-update{
+  background-image: url(../img/updates.png);
+  background-repeat: no-repeat;
+  height: 60em;
+  background-size: cover;
+  width: 100%;
+  position: relative;
+  padding-top: 100px;
+  top: -10px;
+}
+.hurbs-line{
+  background-color: #fff;
+  height: 2px;
+}
+.tab-bar{
+  text-align: center;
+}
